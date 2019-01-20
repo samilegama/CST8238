@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Lab3 Web Page</title>
+      <style>
+         table, th, td {
+            border: 1px solid black;}
+
+
+        #container {
+           width:100%; 
+           margin:0 auto;
+        }
+        #column1{
+            background-color:Orange;
+            width: 10%;
+        }
+        #column2{
+            background-color:DodgerBlue;
+            width: 7%;
+        }
+        #column3{
+            background-color:MediumSeaGreen;
+            width:  9%;
+        }
+        #column4{
+            background-color:SlateBlue;
+            width: 12%;
+        }
+        #column5{
+            background-color:Violet;
+            width:  15%;
+        }
+        #column6{
+            background-color:Tomato;
+            width:  18%;
+        }
+        #column7{
+            background-color:pink;
+            width : 20%;
+        }
+
+        #row1{
+            line-height: 14px;
+        }
+        #row2{
+            line-height: 40px;
+        }
+        #row3{
+            line-height: 44px;
+        }
+        #row4{
+            line-height: 50px;
+        }
+        #row5{
+            line-height: 55px;
+        }
+        #row6{
+            line-height: 60px;
+        }
+        #row7{
+            line-height: 65px;
+        }
+         
+      </style>
+   </head>  
+
+   <body>
+       <div id="container">
+        <h1>Samuel Ebba Lab3</h1>
+
+        <h3><a href=http://yummify.me/CST8238/Lab3/index.html>Index</a></h3>
+        <h3><a href=http://yummify.me/CST8238/Lab3/ColRowSpan.html>ColRowSpan</a></h3>
+        <h3><a href=http://yummify.me/CST8238/Lab3/Calendar.html>Calendar</a></h3>
+        <h3><a href=http://yummify.me/CST8238/Lab3/Timetable.html>Timetable</a></h3>
+
+
+      <table>
+         <tr id="row1">
+            <th style="background-color:Orange" >Language</th>
+            <th style="background-color:DodgerBlue" >Release Year</th>
+            <th style="background-color:MediumSeaGreen" >Release Year</th>
+            <th style="background-color:SlateBlue" >Release Year</th>
+            <th style="background-color:Violet"  >Release Year</th>
+            <th  style="background-color:Tomato" >Release Year</th>
+            <th style="background-color:pink" > Release Year</th>
+         </tr>
+         <tr id="row2">
+            <td colspan="3" id="column1">column1</td>
+            <td id="column4">column4</td>
+            <td id="column5">column5</td>
+            <td colspan="2" id="column6">column6</td>
+           
+         </tr id="row3">
+         <tr>
+                <td id="column1">column1</td>
+                <td id="column2">column2</td>
+                <td id="column3">column3</td>
+                <td  rowspan="3" id="column4">column4</td>
+                <td id="column5">column5</td>
+                <td id="column6">column6</td>
+                <td id="column7">column7</td>
+             </tr>
+             <tr id="row4"> 
+                    <td id="column1">column1</td>
+                    <td id="column2">column2</td>
+                    <td id="column3">column3</td>
+                
+                    <td id="column5">column5</td>
+                    <td id="column6">column6</td>
+                    <td rowspan="3" id="column7">column7</td>
+                 </tr>
+                 <tr id="row5">
+                        <td id="column1">column1</td>
+                        <td id="column2">column2</td>
+                        <td id="column3">column3</td>
+                      
+                        <td id="column5">column5</td>
+                        <td id="column6">column6</td>
+                      
+                     </tr>
+                     <tr id="row6">
+                            <td id="column1">column1</td>
+                            <td id="column2">column2</td>
+                            <td id="column3">column3</td>
+                            <td id="column4">column4</td>
+                            <td id="column5">column5</td>
+                            <td id="column6">column6</td>
+                            
+                         </tr>
+                         <tr id="row7">
+                                <td id="column1">column1</td>
+                                <td id="column2">column2</td>
+                                <td id="column3">column3</td>
+                                <td id="column4">column4</td>
+                                <td id="column5">column5</td>
+                                <td id="column6">column6</td>
+                                <td id="column7">column7</td>
+                             </tr>
+      </table>
+    </div>
+   </body>
+</html>
