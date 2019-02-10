@@ -1,0 +1,98 @@
+html{
+    font-family: "Times New Roman";
+    font-size: 10;
+    background-color: white;
+    display: table;
+    margin: auto;
+}
+
+#footer{
+    padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+body{
+    margin:0;
+    padding :0;
+}
+
+
+p{
+    padding: 15;
+}
+#title{
+  color: red;
+}
+#header {
+    padding: 30px;
+    text-align: center;
+    background: LightSteelBlue;
+    background-image: url("http://www.czechleaders.com/wp-content/uploads/2017/11/canada.jpg"), url("https://www.theglobeandmail.com/resources/assets/meta/facebook-1200x630.png");
+  }
+  
+#header h1 {
+    font-size: 50px;
+  }
+
+#menuList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+#menu{
+        float: left;
+        width: 20%;
+        background-color: #f1f1f1;
+      
+}
+
+@media screen and (max-width: 800px) {
+    .menu, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 80%;
+  }
+
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
